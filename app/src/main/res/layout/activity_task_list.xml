@@ -1,0 +1,89 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/taskListRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F3F6FC"
+    android:padding="22dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="‹  Back"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:backgroundTint="#315D9B"
+        android:stateListAnimator="@null"
+        android:elevation="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MY CATEGORY"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:textColor="#5276A8"
+        android:letterSpacing="0.12"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvCategoryTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Today"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#203653"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/tvTaskCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 kegiatan"
+        android:textSize="14sp"
+        android:textColor="#718096"
+        android:layout_marginTop="5dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DCE5F1"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Tasks"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:textColor="#203653"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:id="@+id/tvEmpty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum ada kegiatan di kategori ini."
+        android:textSize="14sp"
+        android:textColor="#718096"
+        android:gravity="center"
+        android:padding="25dp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/lvCategoryTasks"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:background="@android:color/transparent"
+        android:paddingBottom="15dp"
+        android:clipToPadding="false" />
+
+</LinearLayout>

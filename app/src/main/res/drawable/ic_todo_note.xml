@@ -1,0 +1,49 @@
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <!-- Notebook body -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#315D9B"
+        android:strokeWidth="4"
+        android:strokeLineJoin="round"
+        android:pathData="M35,30 Q35,23 43,23 L113,23 Q121,23 121,31 L121,132 Q121,140 113,140 L43,140 Q35,140 35,132 Z"/>
+
+    <!-- Notebook rings -->
+    <path
+        android:strokeColor="#315D9B"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M53,23 L53,13 M101,23 L101,13"/>
+
+    <!-- Check marks -->
+    <path
+        android:strokeColor="#315D9B"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M47,54 L53,60 L63,48 M47,83 L53,89 L63,77 M47,112 L53,118 L63,106"/>
+
+    <!-- Checklist lines -->
+    <path
+        android:strokeColor="#9BB9E8"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M72,54 L105,54 M72,83 L105,83 M72,112 L105,112"/>
+
+    <!-- Pencil -->
+    <path
+        android:fillColor="#426DA8"
+        android:strokeColor="#243F70"
+        android:strokeWidth="2"
+        android:pathData="M117,116 L139,94 Q143,90 147,94 L153,100 Q157,104 153,108 L131,130 L115,135 Z"/>
+
+    <path
+        android:fillColor="#F3C98B"
+        android:pathData="M115,135 L119,120 L131,130 Z"/>
+
+</vector>

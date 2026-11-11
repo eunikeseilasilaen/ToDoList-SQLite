@@ -1,0 +1,20 @@
+
+<resources>
+
+    <style name="CalendarDateTextLight" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#203653</item>
+    </style>
+
+    <style name="CalendarDateTextDark" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#F8FAFC</item>
+    </style>
+
+    <style name="CalendarWeekTextLight" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#71809A</item>
+    </style>
+
+    <style name="CalendarWeekTextDark" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">#B8C5D8</item>
+    </style>
+
+</resources>
